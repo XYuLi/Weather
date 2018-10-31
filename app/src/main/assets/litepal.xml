@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<litepal>
+<!--数据库名指定为cool_weather;数据库版本指定为1;将Province,City,County三个实体类添加到映射表中-->
+    <dbname value="cool_weather" />
+
+    <version value="1" />
+
+    <list>
+        <mapping class="cn.edu.pku.lxy.db.Province" />
+        <mapping class="cn.edu.pku.lxy.db.City" />
+        <mapping class="cn.edu.pku.lxy.db.County" />
+    </list>
+
+</litepal>
